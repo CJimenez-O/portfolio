@@ -49,7 +49,7 @@ const Navbar = styled.nav`
     margin-left: 30px
   }
   .logo:hover{
-    color: orange;
+    color: #03cffc;
   }
 
   .link-list{
@@ -71,7 +71,7 @@ const Navbar = styled.nav`
   }
 
   .link:hover{
-    color: orange;
+    color: #03cffc;
   }
 
   .icons{

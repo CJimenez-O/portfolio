@@ -2,14 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-function ProjectDisplayLeft({image, title, info}) {
+function ProjectDisplayLeft({ image, title, info }) {
   return (
     <Container>
       <div className="project-image">
-        <img
-          className="website"
-          src={image}
-        ></img>
+        <img className="website" src={image}></img>
         <div className="buttons">
           <a className="view btn">View</a>
           <a className="code btn">Code</a>
@@ -17,8 +14,7 @@ function ProjectDisplayLeft({image, title, info}) {
       </div>
       <div className="project-info">
         <h3 className="website-title">{title}</h3>
-        <p className="projuect-info">
-        {info}</p>
+        <p className="projuect-info">{info}</p>
       </div>
     </Container>
   );
@@ -32,6 +28,11 @@ const Container = styled.div`
     height: 350px;
     border-radius: 5px;
     max-width: 650px;
+  }
+  .website:hover {
+    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   }
   .buttons {
     margin: auto;
@@ -58,15 +59,15 @@ const Container = styled.div`
 
   .btn:hover {
     background-color: white;
-    color: orange;
+    color: #03cffc;
     border: 1px solid black;
   }
-  .website-title{
+  .website-title {
     text-align: center;
-      margin-top: 60px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid orange;
-      margin-right: 30%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #03cffc;
+    margin-right: 30%;
   }
 `;
 export default ProjectDisplayLeft;

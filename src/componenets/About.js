@@ -15,7 +15,7 @@ function About() {
           <div className='about-container'>
           <p className='about-msg'>
             Hello, during my coding journey I have stayed humble and passionate about
-            front-end developement. Even thorugh the tough bugs and rapid changes it still excites me when I convert ideas to
+            front-end developement. Even through the tough bugs and rapid changes it still excites me when I convert ideas to
             reality, solving difficult problems and documenting my journey along the way.
           </p>
           <p className='contact-me'> I would love to hear about any feedback, projects or job opportunities! 
@@ -61,7 +61,7 @@ const AboutContainer = styled.div`
   
   .personal{
         font-size: 45px;
-        border-bottom: 1px solid orange;
+        border-bottom: 1px solid #03cffc;
         margin-left: 30%;
         margin-right: 30%;
     }
@@ -83,9 +83,12 @@ const AboutContainer = styled.div`
      max-width: 500px;
   }
   .about-container{
-    background-color: #e6e6e6;
+    background-color: #f7f7f7;
     padding: 20px 60px;
     border-radius: 10px;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   }
   .about-msg{
       margin-bottom: 30px
@@ -99,11 +102,15 @@ const AboutContainer = styled.div`
   .skill-lists {
     display: flex;
     gap: 50px;
-    background-color: #e6e6e6;
+    background-color: #f7f7f7;
     padding: 20px 60px;
     border-radius: 10px;
     height: 244px;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   }
+  
   .skill-list{
       list-style-type: none;
   }

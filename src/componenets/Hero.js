@@ -45,7 +45,7 @@ const HeroDiv = styled.div`
      padding: 5px 10px;
      border-radius: 10px;
      border: 2px solid white;
-     color: orange;
+     color: #03cffc;
      font-weight: 600;
      letter-spacing: 2px;
      cursor: pointer;
@@ -54,9 +54,9 @@ const HeroDiv = styled.div`
  }
 
  .about:hover{
-     background-color: orange;
+     background-color: #03cffc;
      color: white;
-     border: 2px solid orange;
+     border: 2px solid #03cffc;
  }
 
  

@@ -29,6 +29,11 @@ const Container = styled.div`
     border-radius: 5px;
     max-width: 650px;
   }
+  .website:hover {
+    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  }
   .buttons {
     margin: auto;
     width: 30%;
@@ -54,14 +59,14 @@ const Container = styled.div`
 
   .btn:hover {
     background-color: white;
-    color: orange;
+    color: #03cffc;
     border: 1px solid black;
   }
   .website-title {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid #03cffc;
     margin-right: 30%;
   }
 `;

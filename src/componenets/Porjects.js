@@ -22,20 +22,22 @@ function Porjects() {
       <ProjectRight
         image={window.location.origin + "/imgs/facebook.png"}
         title="The-Facebook-Clone"
-        info="Cloned Facebooks web app using React, Material.ui, and for user auth. I implimented firebase. To create the feed functionality I gathered the values inputed and store them into firebases database then render the posts chronological order."
+        info="Cloned Facebooks web app using React, Material.ui, and for user auth. I implimented firebase. To create the feed functionality I gathered the values inputed and store them into firebases database then render the posts in chronological order."
       />
       <h3 className="react">Javascript</h3>
       <ProjectLeft
         image={window.location.origin + "/imgs/market.png"}
         title="Stock Market News and Simulation"
-        info="This website was inspired by The New York Times and Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market. Using this I was also able to create a trading simulation that collects your positions and profit loss when sold. 
- "
+        info="This website was inspired by The New York Times and Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market. With Yahoos API, I was also able to create a trading simulation that collects your positions and profit loss when sold. 
+ "    
+        link='themarketsview.com'
       />
       <ProjectRight
         image={window.location.origin + "/imgs/spek-repair.png"}
         title="Spek Repair E-commerce"
         info="Needing to authenticate my side company I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
-      />
+        link='spekrepair.com'
+        />
       <ProjectLeft
         image={window.location.origin + "/imgs/express.png"}
         title="Express: Ticket Tracking & Creating"
@@ -57,7 +59,7 @@ const Container = styled.div`
   }
   .project-title {
     font-size: 45px;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid #03cffc;
     margin-left: 30%;
     margin-right: 30%;
   }
