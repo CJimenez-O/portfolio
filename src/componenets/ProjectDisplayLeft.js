@@ -30,6 +30,7 @@ const Container = styled.div`
 
   .website {
     height: 350px;
+    border-radius: 5px;
   }
   .buttons {
     margin: auto;
