@@ -50,6 +50,11 @@ const HeroDiv = styled.div`
      cursor: pointer;
      background-color: transparent;
  }
+
+ .about:hover{
+     background-color: white;
+     color: orange;
+ }
  
 `
 

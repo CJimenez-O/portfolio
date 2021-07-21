@@ -36,6 +36,10 @@ const Navbar = styled.nav`
     color: white;
     letter-spacing: 1px;
     font-size: 16px;
+    cursor: pointer;
+  }
+  .logo:hover{
+    color: orange;
   }
 
   .links{
@@ -49,6 +53,10 @@ const Navbar = styled.nav`
   .link{
       color: white;
       letter-spacing: 1px;
+  }
+
+  .link:hover{
+    color: orange;
   }
 `;
 

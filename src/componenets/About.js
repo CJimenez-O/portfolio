@@ -6,8 +6,8 @@ function About() {
   return (
     <AboutContainer>
       <div className="about-title">
-        <h3>Personal Info</h3>
-        <p>Get to know about more about me</p>
+        <h3 className='personal'>Personal Info</h3>
+        <p className='me'>Get to know about more about me</p>
       </div>
       <div className="flex info-container">
         <div className="info">
@@ -53,16 +53,28 @@ function About() {
 const AboutContainer = styled.div`
     align-items: center;
     justify-content: center;
+
   .about-title {
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
   }
+  
+  .personal{
+        font-size: 45px;
+        border-bottom: 1px solid orange;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .me{
+        margin-top: 10px;
+        font-size: 15px;
+    }
 
   .flex {
     display: flex;
     gap: 10px;
     margin: 0 10%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     justify-content: center;
   }
 
@@ -71,7 +83,7 @@ const AboutContainer = styled.div`
      max-width: 500px;
   }
   .about-container{
-    border: 2px solid black;
+    background-color: #e6e6e6;
     padding: 20px 60px;
     border-radius: 10px;
   }
@@ -87,7 +99,7 @@ const AboutContainer = styled.div`
   .skill-lists {
     display: flex;
     gap: 50px;
-    border: 2px solid black;
+    background-color: #e6e6e6;
     padding: 20px 60px;
     border-radius: 10px;
     height: 244px;
@@ -96,7 +108,6 @@ const AboutContainer = styled.div`
       list-style-type: none;
   }
   .skill-list li{
-      background-color: lightgray;
       margin-bottom: 10px;
       text-align: center;
       padding: 5px 10px;
