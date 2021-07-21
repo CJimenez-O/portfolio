@@ -58,8 +58,11 @@ const Container = styled.div`
     border: 1px solid black;
   }
   .website-title {
+    text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
+    border-bottom: 1px solid orange;
+    margin-right: 30%;
   }
 `;
 export default ProjectDisplayRight;

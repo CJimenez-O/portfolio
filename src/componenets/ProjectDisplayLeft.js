@@ -31,6 +31,7 @@ const Container = styled.div`
   .website {
     height: 350px;
     border-radius: 5px;
+    max-width: 650px;
   }
   .buttons {
     margin: auto;
@@ -61,8 +62,11 @@ const Container = styled.div`
     border: 1px solid black;
   }
   .website-title{
+    text-align: center;
       margin-top: 60px;
       margin-bottom: 20px;
+      border-bottom: 1px solid orange;
+      margin-right: 30%;
   }
 `;
 export default ProjectDisplayLeft;

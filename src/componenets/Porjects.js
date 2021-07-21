@@ -14,10 +14,9 @@ function Porjects() {
       <h3 className="react">React</h3>
       <ProjectLeft
         image={window.location.origin + "/imgs/nzxt.png"}
-        title="NZXT-CLONE"
-        info="  This project is a e-commerce clone of the NZXT computer
-    components company. Built with; react.js, redux, styled components,
-    stripe and AuthO I was able to recreate this e-commerce from scratch.
+        title="NZXT-ECOMMERCE-CLONE"
+        info="  This is a fully functioning e-commerce clone of NZXT.com. Built with; react.js, redux, styled components,
+    stripe and AuthO I was able to recreate this e-commerce from scratch. Using Redux to dispatch actions like adding items to your cart or changing from section to section in the responsive navbar.
  "
       />
       <ProjectRight
@@ -34,7 +33,7 @@ function Porjects() {
       />
       <ProjectRight
         image={window.location.origin + "/imgs/spek-repair.png"}
-        title="Spek Repair"
+        title="Spek Repair E-commerce"
         info="Needing to authenticate my side company I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
       />
       <ProjectLeft

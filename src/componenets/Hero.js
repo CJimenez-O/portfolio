@@ -10,6 +10,7 @@ function Hero() {
                 <h1 className='title-name'>Christopher Jimenez</h1>
                 <h3 className='title-role'>Front-end Developer</h3>
                 <button className='about'>My Skills</button>
+                <button className='about'>Projects</button>
             </div>
         </HeroDiv>
     )
@@ -20,7 +21,7 @@ const HeroDiv = styled.div`
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover; 
- height: 650px;
+ height: 700px;
  text-align: center;
  align-items: center;
 
@@ -44,17 +45,20 @@ const HeroDiv = styled.div`
      padding: 5px 10px;
      border-radius: 10px;
      border: 2px solid white;
-     color: white;
+     color: orange;
      font-weight: 600;
      letter-spacing: 2px;
      cursor: pointer;
      background-color: transparent;
+     margin-right: 5px
  }
 
  .about:hover{
-     background-color: white;
-     color: orange;
+     background-color: orange;
+     color: white;
+     border: 2px solid orange;
  }
+
  
 `
 
