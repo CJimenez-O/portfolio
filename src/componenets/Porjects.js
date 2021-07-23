@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ProjectLeft from "./ProjectDisplayLeft";
 import ProjectRight from "./ProductDisplayRight";
 
 function Porjects() {
   return (
-    <Container>
+    <Container id="projects">
       <div className="project">
         <h4 className="project-title">Projects</h4>
         <p className="project-sub-title">View My Latest Works</p>
@@ -16,34 +15,40 @@ function Porjects() {
         image={window.location.origin + "/imgs/nzxt.png"}
         title="NZXT-ECOMMERCE-CLONE"
         info="  This is a fully functioning e-commerce clone of NZXT.com. Built with; react.js, redux, styled components,
-    stripe and AuthO I was able to recreate this e-commerce from scratch. Using Redux to dispatch actions like adding items to your cart or changing from section to section in the responsive navbar.
- "
+    stripe and AuthO I was able to recreate this e-commerce from scratch. Using Redux to dispatch actions like adding items to your cart or changing from section to section in the responsive navbar."
+        repo="https://github.com/CJimenez-O/nzxt-clone"
+        link="https://nzxt-clone.netlify.app/"
       />
       <ProjectRight
         image={window.location.origin + "/imgs/facebook.png"}
         title="The-Facebook-Clone"
         info="Cloned Facebooks web app using React, Material.ui, and for user auth. I implimented firebase. To create the feed functionality I gathered the values inputed and store them into firebases database then render the posts in chronological order."
+        repo="https://github.com/CJimenez-O/facebook-clone"
+        link='https://facebook-clone-project.netlify.app/'
       />
       <h3 className="react">Javascript</h3>
       <ProjectLeft
         image={window.location.origin + "/imgs/market.png"}
         title="Stock Market News and Simulation"
         info="This website was inspired by The New York Times and Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market. With Yahoos API, I was also able to create a trading simulation that collects your positions and profit loss when sold. 
- "    
-        link='themarketsview.com'
+ "
+        link="https://themarketsview.com"
+        repo={""}
       />
       <ProjectRight
         image={window.location.origin + "/imgs/spek-repair.png"}
         title="Spek Repair E-commerce"
         info="Needing to authenticate my side company I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
-        link='spekrepair.com'
-        />
+        link="https://spekrepair.com"
+        repo="https://github.com/CJimenez-O/spekrepair"
+      />
       <ProjectLeft
         image={window.location.origin + "/imgs/express.png"}
         title="Express: Ticket Tracking & Creating"
         info="Using Javascript, HTML, CSS, Firebase and Chart.js I was able to construct a ticket tracking and creation web app to help me with my repairs. I aquire the inputs from the ticket creation, store it in firebase and render when data is needed. Also was able to calculate store performance with transactions."
+        repo={""}
+        link="https://express-q.com"
       />
-      
     </Container>
   );
 }
@@ -52,7 +57,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0 10%;
-  background-color:#f7f7f7;
+  background-color: #f7f7f7;
   padding-bottom: 50px;
   .project {
     text-align: center;

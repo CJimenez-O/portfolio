@@ -1,29 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <div className="about-title">
-        <h3 className='personal'>Personal Info</h3>
-        <p className='me'>Get to know about more about me</p>
+        <h3 className="personal">Personal Info</h3>
+        <p className="me">Get to know about more about me</p>
       </div>
       <div className="flex info-container">
         <div className="info">
-        <h4 className='skill-title'>About Me</h4>
-          <div className='about-container'>
-          <p className='about-msg'>
-            Hello, during my coding journey I have stayed humble and passionate about
-            front-end developement. Even through the tough bugs and rapid changes it still excites me when I convert ideas to
-            reality, solving difficult problems and documenting my journey along the way.
-          </p>
-          <p className='contact-me'> I would love to hear about any feedback, projects or job opportunities! 
-          </p>
+          <h4 className="skill-title">About Me</h4>
+          <div className="about-container">
+            <p className="about-msg">
+              Hello, during my coding journey I have stayed humble and
+              passionate about front-end developement. Even through the tough
+              bugs and rapid changes it still excites me when I convert ideas to
+              reality, solving difficult problems and documenting my journey
+              along the way.
+            </p>
+            <p className="contact-me">
+              {" "}
+              I would love to hear about any feedback, projects or job
+              opportunities!
+            </p>
           </div>
         </div>
         <div className="skills">
-          <h4 className='skill-title'>Skills</h4>
+          <h4 className="skill-title">Skills</h4>
           <div className="skill-lists">
             <ul className="skill-list">
               <li>HTML</li>
@@ -51,24 +55,24 @@ function About() {
 }
 
 const AboutContainer = styled.div`
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
   .about-title {
     text-align: center;
     margin: 50px 0;
   }
-  
-  .personal{
-        font-size: 45px;
-        border-bottom: 1px solid #03cffc;
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-    .me{
-        margin-top: 10px;
-        font-size: 15px;
-    }
+
+  .personal {
+    font-size: 45px;
+    border-bottom: 1px solid #03cffc;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .me {
+    margin-top: 10px;
+    font-size: 15px;
+  }
 
   .flex {
     display: flex;
@@ -79,26 +83,22 @@ const AboutContainer = styled.div`
   }
 
   .info {
-     min-width: 500px;
-     max-width: 500px;
+    min-width: 100px;
+    max-width: 500px;
   }
-  .about-container{
+  .about-container {
     background-color: #f7f7f7;
     padding: 20px 60px;
     border-radius: 10px;
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
--webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   }
-  .about-msg{
-      margin-bottom: 30px
+  .about-msg {
+    margin-bottom: 30px;
   }
 
-
-  .skill-title{
-      text-align: center;
-      margin-bottom: 10px;
-  }
+ 
   .skill-lists {
     display: flex;
     gap: 50px;
@@ -106,19 +106,36 @@ box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     padding: 20px 60px;
     border-radius: 10px;
     height: 244px;
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
--webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    min-width: 100px;
+    max-width: 400px;
+    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   }
-  
-  .skill-list{
-      list-style-type: none;
+
+  .skill-list li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
   }
-  .skill-list li{
-      margin-bottom: 10px;
-      text-align: center;
-      padding: 5px 10px;
-      border-radius: 5px;
+
+  @media (max-width: 1190px) {
+    .flex {
+      display: grid;
+      margin: 0 10%;
+      justify-items: center;
+    }
+    .skills{
+      margin-top: 20px;
+
+    }
+    .skill-lists{
+      padding: 20px 40px;
+    }
+    .skill-list{
+      font-size: 12px;
+      padding: 15px 0px;
+    }
   }
 `;
 

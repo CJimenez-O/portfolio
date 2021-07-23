@@ -1,9 +1,10 @@
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
 import Navbar from './componenets/navbar'
 import Hero from './componenets/Hero'
 import About from './componenets/About'
 import Projects from './componenets/Porjects'
+import Contact from './componenets/Contact'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </BrowserRouter>
   );
 }
