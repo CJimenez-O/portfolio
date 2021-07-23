@@ -61,7 +61,6 @@ const Container = styled.div`
   .contact-form {
     display: grid;
     height: auto;
-    width: 40%;
     margin: 30px auto;
     background-color: rgb(40, 44, 52);
     padding: 40px 30px;
