@@ -125,6 +125,12 @@ const Navbar = styled.nav`
     position: relative;
     padding-bottom: -20rem;
   }
+
+  @media (max-width: 790px){
+    .link-list{
+      display: none;
+    }
+  }
 `;
 
 export default navbar;

@@ -3,15 +3,13 @@ import styled from "styled-components";
 
 function Contact() {
   return (
-    <Container id='contact'>
+    <Container id="contact">
       <h3 className="contact-title">Get in touch</h3>
       <form
         className="contact-form"
         action="https://formspree.io/f/xdoyeyee"
         method="POST"
       >
-        <div className="personal-info">
-          <div className="input-div">
             <label for="name">Name</label>
             <input
               type="name"
@@ -19,8 +17,6 @@ function Contact() {
               placeholder="Richard Hendricks"
               name="name"
             />
-          </div>
-          <div className="input-div">
             <label for="email">Email</label>
             <input
               type="email"
@@ -28,8 +24,6 @@ function Contact() {
               placeholder="your@email.com"
               name="_replyto"
             />
-          </div>
-        </div>
         <label for="message">Message</label>
         <textarea
           placeholder="Message:"
@@ -70,13 +64,12 @@ const Container = styled.div`
     display: flex;
     gap: 10px;
   }
-  .input-div{
+  .input-div {
     display: grid;
-    width: 80%;
     margin: auto;
   }
-  label{
-      color: white;
+  label {
+    color: white;
   }
   .form-input {
     margin: 5px 0px;
@@ -104,7 +97,7 @@ const Container = styled.div`
     border-radius: 10px;
   }
   .submit-btn {
-    width: 30%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -115,9 +108,28 @@ const Container = styled.div`
     cursor: pointer;
   }
   .submit-btn:hover {
-    
     color: #03cffc;
     background-color: transparent;
+  }
+
+  @media (max-width: 790px) {
+    display: block;
+    
+    .contact-title {
+      text-align: center;
+      font-size: 25px;
+      border-bottom: 1px solid #03cffc;
+      width: unset;
+      margin: 0 10%;
+      margin-top: 25px;
+    }
+    .contact-form {
+    }
+
+    .input-div {
+      display: block;
+      width: 100%;
+    }
   }
 `;
 

@@ -73,6 +73,14 @@ const Container = styled.div`
     font-size: 35px;
     text-align: center;
   }
+
+  @media (max-width: 990px) {
+    .project-title {
+    font-size: 25px;
+    border-bottom: 1px solid #03cffc;
+    margin: 0 10%auto;
+  }
+  }
 `;
 
 export default Porjects;

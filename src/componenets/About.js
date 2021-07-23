@@ -137,6 +137,23 @@ const AboutContainer = styled.div`
       padding: 15px 0px;
     }
   }
+
+  @media (max-width: 790px) {
+    .personal{
+      font-size: 25px;
+      margin: 0 10%;
+    }
+    margin-bottom: 50px;
+    .info{
+      max-width: 200px;
+      font-size: 10px;
+    }
+    .skill-lists{
+      max-width: 200px;
+      display: block;
+      height: unset;
+    }
+  }
 `;
 
 export default About;

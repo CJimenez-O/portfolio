@@ -96,5 +96,11 @@ const Container = styled.div`
       max-width: 400px;
     }
   }
+
+  @media(max-width: 690px){
+    .website{
+      max-width: 250px;
+    }
+  }
 `;
 export default ProjectDisplayRight;
