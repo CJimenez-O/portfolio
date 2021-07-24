@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-function ProjectDisplayRight({ image, title, info,repo, link }) {
+function ProjectDisplayRight({ image, title, info,repo, link, tech }) {
   return (
     <Container>
       <div className="project-info">
         <h3 className="website-title">{title}</h3>
+        <p className='tech'>Technologies: {tech}</p>
         <p className="project-info">{info}</p>
       </div>
       <div className="project-image">
@@ -19,7 +20,7 @@ function ProjectDisplayRight({ image, title, info,repo, link }) {
   );
 }
 const Container = styled.div`
-  margin: 150px 0;
+  margin: 100px 0;
   display: flex;
   gap: 50px;
 
@@ -32,6 +33,11 @@ const Container = styled.div`
     -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  }
+  .tech{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #787878;
   }
   .buttons {
     margin: auto;

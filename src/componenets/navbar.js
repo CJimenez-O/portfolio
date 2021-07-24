@@ -21,7 +21,7 @@ function navbar() {
               offset={-50}
               duration={500}
               style={{ textDecoration: "none" }}
-              className="link"
+              className="link lost"
             >
               About
             </Link>
@@ -35,7 +35,7 @@ function navbar() {
               offset={-50}
               duration={500}
               style={{ textDecoration: "none" }}
-              className="link"
+              className="link lost"
             >
               Projects
             </Link>
@@ -49,7 +49,7 @@ function navbar() {
               offset={-50}
               duration={500}
               style={{ textDecoration: "none" }}
-              className="link"
+              className="link lost"
             >
               Contact
             </Link>
@@ -121,14 +121,13 @@ const Navbar = styled.nav`
     color: #03cffc;
   }
 
-  .icons {
-    position: relative;
-    padding-bottom: -20rem;
-  }
 
   @media (max-width: 790px){
-    .link-list{
+    .lost{
       display: none;
+    }
+    .icons{
+      font-size: 20px;
     }
   }
 `;

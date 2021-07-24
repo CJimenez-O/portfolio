@@ -88,7 +88,7 @@ const AboutContainer = styled.div`
   }
   .about-container {
     background-color: #f7f7f7;
-    padding: 20px 60px;
+    padding: 20px 20px;
     border-radius: 10px;
     -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
@@ -105,12 +105,12 @@ const AboutContainer = styled.div`
     background-color: #f7f7f7;
     padding: 20px 60px;
     border-radius: 10px;
-    height: 244px;
     min-width: 100px;
     max-width: 400px;
     -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    margin-bottom: 50px;
   }
 
   .skill-list li {
@@ -145,13 +145,21 @@ const AboutContainer = styled.div`
     }
     margin-bottom: 50px;
     .info{
-      max-width: 200px;
-      font-size: 10px;
+      max-width: 400px;
+      font-size: 14px;
     }
     .skill-lists{
       max-width: 200px;
       display: block;
       height: unset;
+    }
+
+    .skill-lists{
+      margin-bottom: 0px !important;
+    }
+
+    .skill-list li {
+    margin-bottom: 0px;
     }
   }
 `;

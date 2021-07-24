@@ -55,7 +55,7 @@ const Container = styled.div`
   .contact-form {
     display: grid;
     height: auto;
-    margin: 30px auto;
+    margin: 30px 30%;
     background-color: rgb(40, 44, 52);
     padding: 40px 30px;
     border-radius: 10px;
@@ -124,6 +124,7 @@ const Container = styled.div`
       margin-top: 25px;
     }
     .contact-form {
+      margin: 30px 10%;
     }
 
     .input-div {
