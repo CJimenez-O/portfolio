@@ -127,10 +127,12 @@ const AboutContainer = styled.div`
     }
     .skills{
       margin-top: 20px;
+      text-align: center;
 
     }
     .skill-lists{
       padding: 20px 40px;
+      min-width: 300px;
     }
     .skill-list{
       font-size: 12px;
@@ -150,6 +152,7 @@ const AboutContainer = styled.div`
     }
     .skill-lists{
       max-width: 200px;
+      min-width: 200px;
       display: block;
       height: unset;
     }
