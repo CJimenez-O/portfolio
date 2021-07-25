@@ -14,7 +14,7 @@ function Contact() {
             <input
               type="name"
               className="form-input"
-              placeholder="Richard Hendricks"
+              placeholder="Name"
               name="name"
             />
             <label for="email">Email</label>
