@@ -36,16 +36,20 @@ function About() {
               <li>Material.ui</li>
             </ul>
             <ul className="skill-list">
-              <li>Git</li>
+              
               <li>Javascript</li>
+              <li>Liquid</li>
               <li>React</li>
               <li>Redux</li>
               <li>ES6</li>
             </ul>
             <ul className="skill-list">
               <li>Node.js</li>
+              <li>Express</li>
               <li>Puppeteer</li>
               <li>Firebase</li>
+              <li>SQL</li>
+              <li>Git</li>
             </ul>
           </div>
         </div>
@@ -114,7 +118,7 @@ const AboutContainer = styled.div`
   }
 
   .skill-list li {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 5px 10px;
     border-radius: 5px;
   }
