@@ -19,7 +19,7 @@ function Hero() {
             style={{ textDecoration: "none" }}
             className="about"
           >
-            My Skills
+            About Me
           </Link>
           <Link
             activeClass="active"
