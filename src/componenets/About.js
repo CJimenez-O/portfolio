@@ -10,39 +10,58 @@ function About() {
       </div>
       <div className="flex info-container">
         <div className="info">
-          <h4 className="skill-title">About Me</h4>
           <div className="about-container">
             <p className="about-msg">
               Hello, during my coding journey I have stayed humble and
               passionate about front-end developement. Even through the tough
               bugs and rapid changes it still excites me when I convert ideas to
               reality, solving difficult problems and documenting my journey
-              along the way.
+              along the way. If I am not coding you will likely see me either
+              bowling, playing basketball, paintballing, or gaming!
             </p>
             <p className="contact-me">
-              {" "}
               I would love to hear about any feedback, projects or job
               opportunities!
             </p>
           </div>
         </div>
-        <div className="skills">
-          <h4 className="skill-title">Skills</h4>
-          <div className="skill-lists">
+        <div>
+          <img
+            className="about-img"
+            alt="illustration"
+            src={window.location.origin + "/imgs/illustration.png"}
+          ></img>
+        </div>
+      </div>
+      <div className="about-title">
+        <h3 className="personal">Technical Skills</h3>
+        <p className="me">What I work with, but am not limited to</p>
+      </div>
+      <div className="skills">
+        <div className="skill-lists">
+          <div>
+          <h3>Styling</h3>
             <ul className="skill-list">
               <li>HTML</li>
               <li>CSS</li>
               <li>SASS</li>
               <li>Material.ui</li>
+              <li>Bootstrap</li>
             </ul>
+          </div>
+
+          <div>
+          <h3>Frontend</h3>
             <ul className="skill-list">
-              
               <li>Javascript</li>
               <li>Liquid</li>
               <li>React</li>
               <li>Redux</li>
               <li>ES6</li>
             </ul>
+          </div>
+          <div>
+          <h3>Backend</h3>
             <ul className="skill-list">
               <li>Node.js</li>
               <li>Express</li>
@@ -54,6 +73,7 @@ function About() {
           </div>
         </div>
       </div>
+      <img className='wave' alt='wave' src={window.location.origin + "/imgs/wave.png"}></img>
     </AboutContainer>
   );
 }
@@ -80,9 +100,8 @@ const AboutContainer = styled.div`
 
   .flex {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     margin: 0 10%;
-    margin-bottom: 100px;
     justify-content: center;
   }
 
@@ -91,29 +110,33 @@ const AboutContainer = styled.div`
     max-width: 500px;
   }
   .about-container {
-    background-color: #f7f7f7;
+    height: 300px;
     padding: 20px 20px;
     border-radius: 10px;
-    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 2px 10px rgba(182, 182, 182, 0.75);
   }
   .about-msg {
     margin-bottom: 30px;
   }
 
- 
-  .skill-lists {
+  .about-img{
+    height: 400px;
+    width: 400px;
+  }
+
+  .skills{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+ .skill-lists {
     display: flex;
     gap: 50px;
-    background-color: #f7f7f7;
     padding: 20px 60px;
     border-radius: 10px;
     min-width: 100px;
     max-width: 400px;
-    -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 10px rgba(182, 182, 182, 0.75);
     margin-bottom: 50px;
   }
 
@@ -121,6 +144,11 @@ const AboutContainer = styled.div`
     margin-bottom: 0px;
     padding: 5px 10px;
     border-radius: 5px;
+  } 
+
+  .wave{
+    margin-bottom: -20px;
+    width: 100%;
   }
 
   @media (max-width: 1190px) {
@@ -149,7 +177,6 @@ const AboutContainer = styled.div`
       font-size: 25px;
       margin: 0 10%;
     }
-    margin-bottom: 50px;
     .info{
       max-width: 400px;
       font-size: 14px;

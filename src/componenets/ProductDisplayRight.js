@@ -23,6 +23,7 @@ const Container = styled.div`
   margin: 100px 0;
   display: flex;
   gap: 50px;
+  padding: 0 10%;
 
   .website {
     height: 350px;
@@ -76,7 +77,6 @@ const Container = styled.div`
   }
   @media(max-width: 1190px){
     display: block;
-    text-align: center;
     .website-title{
       margin: 10px 0;
     }

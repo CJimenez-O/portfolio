@@ -51,6 +51,9 @@ function Porjects() {
         link="https://express-q.com"
         tech='HTML, CSS, Javascript, Chart.js, Firebase'
       />
+
+      <img className='wave' alt='wave' src={window.location.origin + "/imgs/wave-inverse.png"}></img>
+
     </Container>
   );
 }
@@ -58,9 +61,7 @@ function Porjects() {
 const Container = styled.div`
   align-items: center;
   justify-content: center;
-  padding: 0 10%;
   background-color: #f7f7f7;
-  padding-bottom: 50px;
   .project {
     text-align: center;
   }
@@ -74,6 +75,11 @@ const Container = styled.div`
     margin-top: 50px;
     font-size: 35px;
     text-align: center;
+  }
+  
+  .wave{
+    margin-bottom: -20px;
+    width: 100%;
   }
 
   @media (max-width: 990px) {
