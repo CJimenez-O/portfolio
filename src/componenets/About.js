@@ -181,6 +181,11 @@ const AboutContainer = styled.div`
       max-width: 300px;
       font-size: 14px;
     }
+
+    .about-img{
+      height: 350px;
+    width: 350px;
+    }
     .skill-lists{
       max-width: 200px;
       min-width: 200px;
