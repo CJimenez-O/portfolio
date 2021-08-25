@@ -110,7 +110,7 @@ const AboutContainer = styled.div`
     max-width: 500px;
   }
   .about-container {
-    height: 300px;
+    min-height: 300px;
     padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(182, 182, 182, 0.75);
@@ -178,7 +178,7 @@ const AboutContainer = styled.div`
       margin: 0 10%;
     }
     .info{
-      max-width: 400px;
+      max-width: 300px;
       font-size: 14px;
     }
     .skill-lists{
