@@ -70,6 +70,7 @@ const Container = styled.div`
     border-bottom: 1px solid #03cffc;
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 50px;
   }
   .react {
     margin-top: 50px;

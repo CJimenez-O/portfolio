@@ -4,6 +4,7 @@ import styled from "styled-components";
 function About() {
   return (
     <AboutContainer id="about">
+    
       <div className="about-title">
         <h3 className="personal">Personal Info</h3>
         <p className="me">Get to know about more about me</p>
@@ -81,6 +82,7 @@ function About() {
 const AboutContainer = styled.div`
   align-items: center;
   justify-content: center;
+  
 
   .about-title {
     text-align: center;
