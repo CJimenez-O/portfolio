@@ -38,7 +38,7 @@ function Porjects() {
 			<ProjectRight
 				image={window.location.origin + "/imgs/spek-repair.png"}
 				title="Spek Repair E-commerce"
-				info="Needing to authenticate my side company I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
+				info="Needing to authenticate my side business, I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
 				link="https://spekrepair.com"
 				repo="https://github.com/CJimenez-O/spekrepair"
 				tech="Javascript, HTML, CSS, ES6"

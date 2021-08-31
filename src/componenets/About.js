@@ -14,8 +14,8 @@ function About() {
 						<p className="about-msg">
 							Hello, during my coding journey I have stayed humble and
 							passionate about front-end developement. Even through the tough
-							bugs and rapid changes it still excites me when I convert ideas to
-							reality, solving difficult problems and documenting my journey
+							bugs and rapid changes, it still excites me when I convert ideas
+							to reality, solving difficult problems and documenting my journey
 							along the way. If I am not coding you will likely see me either
 							bowling, playing basketball, paintballing, or gaming!
 						</p>
