@@ -6,7 +6,7 @@ function About() {
 		<AboutContainer id="about">
 			<div className="about-title">
 				<h3 className="personal">Personal Info</h3>
-				<p className="me">Get to know about more about me</p>
+				<p className="me">Get to know more about me</p>
 			</div>
 			<div className="flex info-container">
 				<div className="info">
