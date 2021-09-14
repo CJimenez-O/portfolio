@@ -7,7 +7,7 @@ function ProjectCard({ title, image, info, tech, repo, link }) {
 	return (
 		<Container>
 			<p className="project-card-title">{title}</p>
-			<img className="project-image" src={image}></img>
+			<img className="project-image" src={image} alt={title}></img>
 			<p className="project-info">{info}</p>
 			<h4 className="tech-title">Technologies:</h4>
 			<p class="project-tech">{tech}</p>

@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import ProjectLeft from "./ProjectDisplayLeft";
-import ProjectRight from "./ProductDisplayRight";
 import ProjectCard from "./ProjectCard";
 
 function Porjects() {
