@@ -79,6 +79,16 @@ const Container = styled.div`
 	.icon {
 		margin-right: 5px;
 	}
+
+	@media (max-width: 690px) {
+		.btns {
+			gap: 5px;
+		}
+		.button-link {
+			height: unset;
+			font-size: 13px;
+		}
+	}
 `;
 
 export default ProjectCard;
