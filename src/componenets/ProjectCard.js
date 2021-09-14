@@ -32,7 +32,7 @@ function ProjectCard({ title, image, info, tech, repo, link }) {
 const Container = styled.div`
 	background-color: white;
 	display: grid;
-	margin-top: 100px;
+	margin-top: 70px;
 	padding: 20px 50px;
 	justify-content: center;
 	border-radius: 5px;

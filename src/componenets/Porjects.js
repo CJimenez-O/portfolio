@@ -76,6 +76,7 @@ const Container = styled.div`
 		border-bottom: 1px solid #03cffc;
 		margin-left: 30%;
 		margin-right: 30%;
+		text-align: center;
 	}
 	.react {
 		margin-top: 50px;
@@ -92,6 +93,9 @@ const Container = styled.div`
 	@media (max-width: 890px) {
 		.projects {
 			display: block;
+		}
+		.project-title {
+			font-size: 30px;
 		}
 	}
 `;
