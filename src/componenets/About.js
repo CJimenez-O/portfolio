@@ -204,7 +204,7 @@ const AboutContainer = styled.div`
 			min-width: 300px;
 		}
 		.skill-list {
-			font-size: 12px;
+			font-size: 16px;
 			padding: 15px 0px;
 		}
 	}
@@ -216,7 +216,7 @@ const AboutContainer = styled.div`
 		}
 		.info {
 			max-width: 300px;
-			font-size: 14px;
+			font-size: 16px;
 		}
 
 		.about-img {
