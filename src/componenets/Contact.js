@@ -109,7 +109,7 @@ const Container = styled.div`
 	}
 	.submit-btn:hover {
 		color: #03cffc;
-		background-color: transparent;
+		background-color: white;
 	}
 
 	@media (max-width: 790px) {

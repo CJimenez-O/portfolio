@@ -87,6 +87,7 @@ const Navbar = styled.nav`
 	border-bottom: 1px solid black;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 	.logo {
 		color: white;
 		letter-spacing: 1px;
