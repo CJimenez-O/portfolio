@@ -53,7 +53,7 @@ function About() {
 			<div className="skills">
 				<div className="skill-lists">
 					<div>
-						<h3>Styling</h3>
+						<h3 className="skill-title">Styling</h3>
 						<ul className="skill-list">
 							<li>HTML</li>
 							<li>CSS</li>
@@ -64,7 +64,7 @@ function About() {
 					</div>
 
 					<div>
-						<h3>Frontend</h3>
+						<h3 className="skill-title">Frontend</h3>
 						<ul className="skill-list">
 							<li>Javascript</li>
 							<li>Typescript</li>
@@ -74,7 +74,7 @@ function About() {
 						</ul>
 					</div>
 					<div>
-						<h3>Backend</h3>
+						<h3 className="skill-title">Backend</h3>
 						<ul className="skill-list">
 							<li>Node.js</li>
 							<li>Express</li>
@@ -167,6 +167,10 @@ const AboutContainer = styled.div`
 		justify-content: center;
 		margin-bottom: 100px;
 	}
+
+	.skill-title {
+		text-align: center;
+	}
 	.skill-lists {
 		display: flex;
 		gap: 50px;
@@ -174,14 +178,24 @@ const AboutContainer = styled.div`
 		border-radius: 10px;
 		min-width: 100px;
 		max-width: 400px;
-		box-shadow: 0 5px 10px rgba(182, 182, 182, 0.75);
+		box-shadow: 0 2px 10px rgba(182, 182, 182, 0.75);
 		margin-bottom: 50px;
 	}
 
+	.skill-list {
+		list-style: none;
+		display: grid;
+		justify-content: center;
+		text-align: center;
+	}
+
 	.skill-list li {
-		margin-bottom: 0px;
+		background-color: #03cffc;
+		margin: 5px 0;
 		padding: 5px 10px;
 		border-radius: 5px;
+		color: white;
+		box-shadow: 0px 0px 5px gray;
 	}
 
 	.wave {
@@ -232,10 +246,6 @@ const AboutContainer = styled.div`
 
 		.skill-lists {
 			margin-bottom: 0px !important;
-		}
-
-		.skill-list li {
-			margin-bottom: 0px;
 		}
 	}
 `;

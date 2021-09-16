@@ -66,14 +66,14 @@ const Container = styled.div`
 	}
 	.button-link {
 		text-align: center;
-		border: 2px solid #03cffc;
+		background-color: #03cffc;
 		padding: 2% 4%;
 		width: 90px;
 		height: 25px;
 		border-radius: 5px;
 		cursor: pointer;
 		text-decoration: none;
-		color: black;
+		color: white;
 	}
 
 	.icon {

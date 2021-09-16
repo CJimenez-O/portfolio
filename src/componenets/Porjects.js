@@ -42,7 +42,7 @@ function Porjects() {
 				<ProjectCard
 					image={window.location.origin + "/imgs/sr-mockup.png"}
 					title="Spek Repair"
-					info="Needing to authenticate my side business, I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. If you need any macbooks repaired I am your guy! "
+					info="Needing to authenticate my side business, I needed to create a website displaying my services and future products for sale. This does have a fully functional cart system but does not take payments. Also a form section for mail in repairs that gets sent to admin email and the user recieves a invoice within 24hrs. If you need any macbooks repaired I am your guy! "
 					link="https://spekrepair.com"
 					repo="https://github.com/CJimenez-O/spekrepair"
 					tech="Javascript, HTML, CSS, ES6"
@@ -63,9 +63,9 @@ const Container = styled.div`
 	justify-content: center;
 	background-color: #f7f7f7;
 	.projects {
-		display: flex;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 		gap: 50px;
-		justify-content: space-evenly;
 		margin: 0 5%;
 	}
 	.project {
