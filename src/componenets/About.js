@@ -133,7 +133,7 @@ const AboutContainer = styled.div`
 		box-shadow: 0 2px 10px rgba(182, 182, 182, 0.75);
 	}
 	.about-msg {
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 
 	.about-img {
@@ -142,7 +142,7 @@ const AboutContainer = styled.div`
 	}
 
 	.resume-section {
-		margin-top: 10px;
+		margin-top: 15px;
 		justify-content: center;
 		display: grid;
 	}
@@ -155,9 +155,9 @@ const AboutContainer = styled.div`
 
 	.resume-button {
 		text-decoration: none;
-		color: #000;
+		color: white;
+		background-color: #03cffc;
 		padding: 10px 15px;
-		border: 1px solid #03cffc;
 		border-radius: 5px;
 		font-size: 16px;
 	}
