@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 
 function About() {
 	return (
@@ -23,6 +24,18 @@ function About() {
 							I would love to hear about any feedback, projects or job
 							opportunities!
 						</p>
+						<div className="resume-section">
+							<a
+								className="resume-button"
+								href="resume.png"
+								download="Resume.png"
+							>
+								<span className="download-icon">
+									<HiOutlineDocumentDownload />
+								</span>
+								Download Resume
+							</a>
+						</div>
 					</div>
 				</div>
 				<div>
@@ -126,6 +139,27 @@ const AboutContainer = styled.div`
 	.about-img {
 		height: 400px;
 		width: 400px;
+	}
+
+	.resume-section {
+		margin-top: 10px;
+		justify-content: center;
+		display: grid;
+	}
+
+	.download-icon {
+		position: relative;
+		top: 2px;
+		margin-right: 5px;
+	}
+
+	.resume-button {
+		text-decoration: none;
+		color: #000;
+		padding: 10px 15px;
+		border: 1px solid #03cffc;
+		border-radius: 5px;
+		font-size: 16px;
 	}
 
 	.skills {

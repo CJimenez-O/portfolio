@@ -10,7 +10,7 @@ function ProjectCard({ title, image, info, tech, repo, link }) {
 			<img className="project-image" src={image} alt={title}></img>
 			<p className="project-info">{info}</p>
 			<h4 className="tech-title">Technologies:</h4>
-			<p class="project-tech">{tech}</p>
+			<p className="project-tech">{tech}</p>
 			<div className="btns">
 				<a href={repo} className="button-link">
 					<span className="icon">
