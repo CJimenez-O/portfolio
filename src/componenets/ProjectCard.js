@@ -40,7 +40,7 @@ const Container = styled.div`
 	margin-bottom: 20px;
 	.project-image {
 		width: 100%;
-		max-width: 800px;
+		max-width: 700px;
 		margin: 10px auto;
 		display: block;
 		object-fit: cover;
@@ -49,7 +49,7 @@ const Container = styled.div`
 	.project-card-title {
 		text-align: center;
 		font-size: 20px;
-		margin-bottom: 20px;
+		height: 40px;
 		border-bottom: 2px solid #03cffc;
 	}
 	.project-info {
