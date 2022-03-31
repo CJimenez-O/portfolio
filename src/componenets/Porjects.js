@@ -21,7 +21,7 @@ function Porjects() {
 				/>
 				<ProjectCard
 					image={window.location.origin + "/imgs/fb-mockup.png"}
-					title="Facebook-Clone"
+					title="Facebook UI"
 					info="Cloned Facebooks web app. I implimented firebase to create the feed functionality I gathered the values inputed and store them into firebases database. Then retrieved the data render the posts in chronological order. "
 					repo="https://github.com/CJimenez-O/facebook-clone"
 					link="https://facebook-clone-project.netlify.app/"
