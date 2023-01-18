@@ -25,8 +25,19 @@ function About() {
 							opportunities!
 						</p>
 						
+						<div className="resume-section">
+							<a
+								className="resume-button"
+								href="resume.png"
+								download="Resume.png"
+							>
+								<span className="download-icon">
+									<HiOutlineDocumentDownload />
+								</span>
+								Download Resume
+							</a>
+						</div>
 						
-
 					</div>
 				</div>
 				<div>
