@@ -32,8 +32,8 @@ function Porjects() {
 			<div className="projects">
 				<ProjectCard
 					image={window.location.origin + "/imgs/reticle.png"}
-					title="Stock Market Dashboard"
-					info="This website was inspired by TD Ameritrades Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market.
+					title="The Reticle"
+					info="A stock market dashboard inspired by TD Ameritrades Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market.
  "
 					link="https://regal-strudel-353fb7.netlify.app/pages/analytics.html"
 					repo={""}
