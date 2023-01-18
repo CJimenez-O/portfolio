@@ -76,6 +76,7 @@ function About() {
 					<div>
 						<h3 className="skill-title">Backend</h3>
 						<ul className="skill-list">
+						<li>PHP</li>
 							<li>Node.js</li>
 							<li>Express</li>
 							<li>Puppeteer</li>

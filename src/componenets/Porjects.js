@@ -20,24 +20,24 @@ function Porjects() {
 					tech="React, Redux, Javascript, Stripe, ES6, AuthO, Styled Components, HTML, CSS"
 				/>
 				<ProjectCard
-					image={window.location.origin + "/imgs/fb-mockup.png"}
-					title="Facebook UI"
-					info="Cloned Facebooks web app. I implimented firebase to create the feed functionality I gathered the values inputed and store them into firebases database. Then retrieved the data render the posts in chronological order. "
-					repo="https://github.com/CJimenez-O/facebook-clone"
-					link="https://facebook-clone-project.netlify.app/"
-					tech="React hooks, Javascript, ES6+, Firebase, HTML, CSS, Material.ui"
+					image={window.location.origin + "/imgs/foodOasis.png"}
+					title="Food Oasis"
+					info="Focused on individuals seeking food in Los Angeles who need an up-to-date resource about food pantries and meals. I helped the team by performing code reviews and collaborated with designers using Kanban to distribute tasks."
+					repo=""
+					link="https://foodoasis.la/organizations"
+					tech="React, Javascript, ES6+, HTML, CSS, Material-UI"
 				/>
 			</div>
 
 			<div className="projects">
 				<ProjectCard
-					image={window.location.origin + "/imgs/mv-mockup.png"}
-					title="The Markets View"
-					info="This website was inspired by The New York Times and Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market. With Yahoos API, I was also able to create a trading simulation that collects your positions and profit loss when sold. 
+					image={window.location.origin + "/imgs/reticle.png"}
+					title="Stock Market Dashboard"
+					info="This website was inspired by TD Ameritrades Think or Swim. Using Yahoos API I was able to collect information like news and prices about Cryptocurrencies and the stock market.
  "
-					link="https://themarketsview.com"
+					link="https://regal-strudel-353fb7.netlify.app/pages/analytics.html"
 					repo={""}
-					tech="JavaScript, ES6, HTML, CSS, Firebase,Yahoo API, Chart.js"
+					tech="JavaScript, ES6, HTML, CSS,Yahoo API, Chart.js"
 				/>
 				<ProjectCard
 					image={window.location.origin + "/imgs/sr-mockup.png"}
